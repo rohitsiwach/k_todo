@@ -1,0 +1,12 @@
+<form class="add-task" (ngSubmit)="onSubmit()">
+  <input
+    autofocus
+    type="text"
+    name="text"
+    placeholder="Add your task here..."
+    [(ngModel)]="text"
+  />
+  <button type="submit">
+    <mat-icon>subdirectory_arrow_left</mat-icon>
+  </button>
+</form>

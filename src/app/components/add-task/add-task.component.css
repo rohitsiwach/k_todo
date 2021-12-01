@@ -1,0 +1,28 @@
+button {
+  border-radius: 0 5px 5px 0;
+  width: 60px;
+  background-color: none;
+  border: none;
+  padding: none;
+  margin: none;
+  cursor: pointer;
+}
+input {
+  border: none;
+  outline: none;
+  height: max-content;
+  width: calc(100% - 70px);
+  border-radius: 5px 0px 0px 5px;
+  font-size: large;
+  font-family: "Zilla Slab", serif;
+  letter-spacing: 0.08rem;
+}
+
+.add-task {
+  margin: 30px 0;
+  border: none;
+  padding: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}

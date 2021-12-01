@@ -1,0 +1,21 @@
+<div class="task">
+  <p class="item-text" [ngClass]="{ done: task.status === 'done' }">
+    <mat-icon
+      *ngIf="task.status === 'done'"
+      class="checked"
+      (click)="toggleStatus(task)"
+      >check_circle</mat-icon
+    >
+    <mat-icon
+      *ngIf="task.status === 'todo'"
+      class="unchecked"
+      (click)="toggleStatus(task)"
+    >
+      radio_button_unchecked
+    </mat-icon>
+    <span (click)="toggleStatus(task)">{{ task.text }}</span>
+    <button class="delete" (click)="onDelete(task)">
+      <mat-icon>clear</mat-icon>
+    </button>
+  </p>
+</div>

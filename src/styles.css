@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+  margin: auto;
+  font-family: "Zilla Slab", serif;
+  letter-spacing: 0.05rem;
+  text-align: left;
+}

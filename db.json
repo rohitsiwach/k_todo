@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Buy Milk",
+      "status": "todo"
+    },
+    {
+      "id": 2,
+      "text": "Take a new route to work.",
+      "status": "todo"
+    },
+    {
+      "id": 3,
+      "text": "Build a task on a tasklist",
+      "status": "todo"
+    },
+    {
+      "id": 4,
+      "text": "Brush your teeth with the other hand.",
+      "status": "done"
+    },
+    {
+      "id": 5,
+      "text": "Book flights to Bermuda",
+      "status": "done"
+    },
+    {
+      "id": 6,
+      "text": "Check one more task",
+      "status": "done"
+    }
+  ]
+}
